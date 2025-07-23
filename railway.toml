@@ -1,0 +1,9 @@
+[build]
+command = "python app.py"
+
+[deploy]
+branch = "master"
+
+[env]
+SECRET_KEY = "your-secret-key"
+JWT_SECRET_KEY = "jwt-secret-key"
