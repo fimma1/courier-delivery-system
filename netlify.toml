@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "frontend/build"
+
+[build.environment]
+  REACT_APP_API_URL = "https://your-backend-url.netlify.app"
